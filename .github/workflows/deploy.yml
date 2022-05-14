@@ -19,4 +19,9 @@ jobs:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USER }}
           password: ${{ secrets.FTP_PASSWORD }}
-          exclude: .ftpquota .htaccess .well-known .git
+          exclude: |
+            .ftpquota
+            .htaccess
+            .well-known
+            .git/
+            .github/
