@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 * {
+    margin: 0 auto;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -9,20 +11,34 @@
     border-radius: 100%;
 }
 
-.menu {
-    color: #FFB800;
-    margin: 46px;
-    height: 24px;
+#menu-horizontal ul {
+    padding: 0;
+    list-style: none;
+    text-align: right;
 }
 
-.menu2 {
+#menu-horizontal ul li {
+    display: inline;
+}
+
+#menu-horizontal ul li a {
     color: #FFB800;
     text-decoration: none;
+    display: inline-block;
+    padding: 20px;
     font-family: 'Permanent Marker', cursive;
 }
 
-body {
+#menu-horizontal ul li a:hover {
+    color: #9e8b5a;
+}
+
+.container {
+    margin: 10px 20px;
     text-align: center;
+}
+
+body {
     background-color: black;
 }
 
