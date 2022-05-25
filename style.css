@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 * {
     margin: 0 auto;
     padding: 0;
@@ -23,8 +22,9 @@ h1 {
 
 .sub-titulo {
     position: relative;
-    top: 80px;
-    font-family: 'Permanent Marker', cursive;
+    top: 90px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
 }
 
 #menu-horizontal ul {
@@ -73,17 +73,21 @@ body {
 }
 
 .sobre {
-    margin: 50px;
-    position: relative;
-    top: 60px;
+    margin: 0;
+    background-color: #252525;
+    padding: 60px;
 }
 
 h2 {
     color: #FFB800;
     text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    padding: 20px;
 }
 
-p {
+.texto-sobre {
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 20px;
+    text-align: center;
 }
