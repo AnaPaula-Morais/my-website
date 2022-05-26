@@ -27,7 +27,8 @@ h1 {
     color: white;
 }
 
-.avatar {
+
+/* .avatar {
     width: 60px;
     height: 60px;
     border-radius: 100px;
@@ -35,14 +36,14 @@ h1 {
     left: 20px;
     padding: 10px;
     margin: 10px;
-}
+} */
 
 #menu-horizontal ul {
     padding: 0;
     list-style: none;
     text-align: right;
-    position: relative;
-    bottom: 30px;
+    /* position: relative;
+    bottom: 30px; */
 }
 
 #menu-horizontal ul li {
