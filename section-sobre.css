@@ -1,0 +1,25 @@
+.sobre {
+    margin: 0;
+    background-color: #252525;
+    padding: 20px;
+}
+
+#titulo {
+    color: #FFB800;
+    font-family: 'Permanent Marker', cursive;
+    position: relative;
+    width: 300px;
+    font-size: 30px;
+    text-align: center;
+    font-size: 30px;
+}
+
+p {
+    color: white;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    top: 30px;
+    text-align: center;
+    height: 300px;
+}

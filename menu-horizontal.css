@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+#menu-horizontal ul {
+    padding: 0;
+    list-style: none;
+    text-align: right;
+    /* position: relative;
+    bottom: 30px; */
+}
+
+#menu-horizontal ul li {
+    display: inline;
+}
+
+#menu-horizontal ul li a {
+    color: #FFB800;
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px;
+    font-family: 'Permanent Marker', cursive;
+}
+
+#menu-horizontal ul li a:hover {
+    color: #9e8b5a;
+}
