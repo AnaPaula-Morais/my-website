@@ -1,24 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
-#menu-horizontal ul {
-    padding: 0;
+header {
+    padding: 2rem;
+    background-color: #252525;
+}
+
+.menu-horizontal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lista-menu-horizontal {
+    display: flex;
+    align-items: center;
     list-style: none;
-    text-align: right;
-    /* position: relative;
-    bottom: 30px; */
+    gap: .8rem;
 }
 
-#menu-horizontal ul li {
-    display: inline;
+.lista-menu-horizontal li {
+    padding: .8rem;
 }
 
-#menu-horizontal ul li a {
-    color: #FFB800;
+.lista-menu-horizontal li a {
     text-decoration: none;
-    display: inline-block;
-    padding: 20px;
+    color: #FFB800;
     font-family: 'Permanent Marker', cursive;
-}
-
-#menu-horizontal ul li a:hover {
-    color: #9e8b5a;
 }
