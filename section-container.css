@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+.container {
+    text-align: center;
+    margin-bottom: 8px;
+    height: 500px;
+}
+
 .foto-perfil {
     width: 200px;
     height: 200px;
@@ -15,7 +22,6 @@ h1 {
     font-size: 30px;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 .sub-titulo {
     position: relative;
     top: 90px;
@@ -26,23 +32,19 @@ h1 {
     font-size: 20px;
 }
 
+
+/* Menu por enquanto está horizontal + a intensao é deixar horizontal, não consegui deixar no canto esquerdo
+da pagina */
+
 #menu-vertical ul {
-    padding: 15px;
+    display: flex;
+    padding: 80px;
     list-style: none;
-    text-align: left;
-    position: relative;
     bottom: 150px;
+    justify-content: left;
 }
 
 #menu-vertical ul li {
-    display: block;
     padding: 15px;
-    text-align: left;
-}
-
-.container {
-    /* margin: 10px 20px; */
-    text-align: center;
-    margin-bottom: 8px;
-    height: 500px;
+    justify-content: left;
 }
